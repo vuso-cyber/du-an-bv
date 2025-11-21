@@ -247,34 +247,35 @@ a {
   padding: 100px 0;
 }
 
-.features .body {
+.features .body1 {
   margin-top: 30px;
   display: flex;
 }
 
-.body .content {
+.body1 .content {
   width: 66%;
-  margin-left: auto;
+  margin-left: 100px;
 }
 
-.body .images {
+.body1 .images {
   height: 200px;
 }
-.features .body1 {
+.features .body2 {
   margin-top: 100px;
   display: flex;
+  /* sắp xếp phần tử con đảo ngược chiều */
   flex-direction: row-reverse;
 }
-.features .body2 {
+.features .body3 {
   display: flex;
   margin-top: 50px;
 }
-.body1 .content {
+.body2 .content {
   width: 66%;
-  margin-left: auto;
+  margin-left: 100px;
   margin-right: 200px;
 }
-.body2 .content {
+.body3 .content {
   width: 66%;
   margin-left: auto;
 }
@@ -282,23 +283,36 @@ a {
 .features .desc {
   margin-top: 16px;
 }
-
-.lower1 {
-  margin-right: 100px;
+.body .title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 16px;
 }
 
 /* blogs----------------------------------------------------------------- */
 .blogs {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .blog-list {
   display: flex;
   gap: 30px;
   margin-top: 50px;
 }
-.blog-item .thumb {
-  border-radius: 12px;
-  width: 100%;
+.blog-list .title {
+  font-weight: bold;
+}
+
+.blog-item1 .thumb1 {
+  width: 330px;
+}
+.blog-item2 .thumb2 {
+  width: 315px;
+}
+.blog-item3 .thumb3 {
+  width: 380px;
+}
+.blog-item2 {
+  margin-left: 40px;
 }
 
 /* news --------------------------------------------------------------------------------- */
